@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro Online</h1>
+    
+    <form>
+      <label for="atendente">Atendente</label>
+      <select id="atendente" name="atendente">
+        <option>Gabriel Ximenes</option>
+        <option>Arthur de Almeida</option>
+        <option>Daniel Maia</option>
+        <option>Alef Melo</option>
+        <option>Lorena Knust</option>
+        <option>Luiz Eduardo Rodrigues</option>
+        <option>Maria Clara dos Santos</option>
+      </select>
+      
+      
+      <label for="tipoAtendimento">Tipo de Atendimento</label>
+      <select id="tipoAtendimento" name="tipoAtendimento">
+        <option>Presencial</option>
+        <option>RO-Presencial</option>
+        <option>WhatsApp</option>
+        <option>Email</option>
+        <option>Intinerante</option>
+      </select>
+      
+      <label for="nomeCompleto">Nome Completo</label>
+      <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+      
+      <label for="cpf">CPF</label>
+        <input type="number" id="cpf" name="cpf" required>
+
+        
+        <label for="cnpj">CNPJ</label>
+        <input type="number" id="cnpj" name="cnpj">
+
+        
+        <label for="telefone">Telefone:</label>
+        <input type="number" id="telefone" name="telefone" required>
+
+        
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" required>
+
+        
+
+        
+        <label for="dataNascimento">Data de Nascimento</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+        
+        <label for="escolaridade">Escolaridade</label>
+        <select id="escolaridade" name="escolaridade">
+            <option>Ensino médio completo</option>
+            <option>Ensino Médio Incompleto</option>
+            <option>Ensino Fundamental completo</option>
+            <option>Ensino Fundamental incompleto</option>
+            <option>Ensino Superior Completo</option>
+            <option>Ensino Superior Incompleto</option>
+            <option>Sem escolaridade</option>
+        </select>
+
+        
+        <label for="sexo">Sexo</label>
+        <select id="sexo" name="sexo">
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Não Binário</option>
+            <option>Prefiro não declarar</option>
+        </select>
+
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        
+        <label for="tipoServico">Tipo de Serviço</label>
+        <select id="tipoServico" name="tipoServico">
+          <option>Lição ou Atualização de Alvará</option>
+          <option>Emissão ou Atualização de DAS</option>
+          <option>Cadastro ou Emissão de Nota Fiscal</option>
+          <option>Formalização do MEI</option>
+          <option>Baixa MEI</option>
+          <option>Declaração Anual</option>
+          <option>Impressão de CCMEI ou Cartão CNPJ</option>
+          <option>Nível da conta GOV.br</option>
+          <option>Parcelamento DAS ou Emissão de Parcelas</option>
+          <option>Alteração de Cadastro</option>
+          <option>Dúvidas</option>
+          <option>Inscrição Estadual</option>
+          <option>Serviços</option>
+          <option>DET</option>
+        </select>
+
+        
+        <label for="comoConheceu">Como conheceu a casa</label>
+        <select id="comoConheceu" name="comoConheceu">
+            <option>CDL</option>
+            <option>Codim</option>
+            <option>Indicação</option>
+            <option>Redes Sociais</option>
+            <option>Prefeitura de Niteroi</option>
+            <option>Receita Federal</option>
+            <option>SEBRAI</option>
+        </select>
+             
+        
+        <label for="profissoes">Escolha uma profissão:</label>
+        <select id="profissoes" name="profissoes">
+            <option value="adestrador_cães_guarda_independente">Adestrador(a) de cães de guarda independente</option>
+            <option value="agente_correio_francoado_independente">Agente de correio franqueado e permissionário independente</option>
+            <option value="acougueiro_independente">Açougueiro(a) independente</option>
+            <option value="abatedor_aves_independente">Abatedor(a) de aves com comercialização do produto, independente</option>
+            <option value="acabador_calçados_independente">Acabador(a) de calçados independente</option>
+            <option value="adestrador_animais_independente">Adestrador(a) de animais independente</option>
+            <option value="agente_viagens_independente">Agente de viagens independente</option>
+            <option value="agente_funerario_independente">Agente funerário independente</option>
+            <option value="agente_matrimonial_independente">Agente matrimonial independente</option>
+            <option value="alfaiate_independente">Alfaiate independente</option>
+            <option value="amolador_cutelaria_independente">Amolador(a) de artigos de cutelaria independente</option>
+            <option value="animador_festas_independente">Animador(a) de festas independente</option>
+            <option value="antiquario_independente">Antiquário(a) independente</option>
+            <option value="apicultor_independente">Apicultor(a) independente</option>
+            <option value="apurador_coletor_fornecedor_independente">Apurador(a), coletor(a) e fornecedor(a) de recortes de matérias publicadas em jornais e revistas independente</option>
+            <option value="armador_ferragens_construcao_civil_independente">Armador(a) de ferragens na construção civil, independente</option>
+            <option value="artesao_bijuterias_independente">Artesão(ã) de bijuterias independente</option>
+            <option value="artesao_borracha_independente">Artesão(ã) em borracha independente</option>
+            <option value="artesao_ceramica_independente">Artesão(ã) em cerâmica independente</option>
+            <option value="artesao_cimento_independente">Artesão(ã) em cimento independente</option>
+            <option value="artesao_cortica_independente">Artesão(ã) em cortiça, bambu e afins independente</option>
+            <option value="artesao_couro_independente">Artesão(ã) em couro independente</option>
+            <option value="artesao_gesso_independente">Artesão(ã) em gesso independente</option>
+            <option value="artesao_loucas_vidro_cristal_independente">Artesão(ã) em louças, vidro e cristal independente</option>
+            <option value="artesao_madeira_independente">Artesão(ã) em madeira independente</option>
+            <option value="artesao_marmore_granito_pedras_independente">Artesão(ã) em mármore, granito, ardósia e outras pedras independente</option>
+            <option value="artesao_metais_independente">Artesão(ã) em metais independente</option>
+            <option value="artesao_metais_precisos_independente">Artesão(ã) em metais preciosos independente</option>
+            <option value="artesao_outros_materiais_independente">Artesão(ã) em outros materiais independente</option>
+            <option value="artesao_papel_independente">Artesão(ã) em papel independente</option>
+            <option value="artesao_plastico_independente">Artesão(ã) em plástico independente</option>
+            <option value="artesao_vidro_independente">Artesão(ã) em vidro independente</option>
+            <option value="artesao_textil_independente">Artesão(ã) têxtil independente</option>
+            <option value="astrologo_independente">Astrólogo(a) independente</option>
+            <option value="azulejista_independente">Azulejista independente</option>
+            <option value="baleiro_independente">Baleiro(a) independente</option>
+            <option value="banhista_animais_independente">Banhista de animais domésticos independente</option>
+            <option value="barbeiro_independente">Barbeiro(a) independente</option>
+            <option value="barqueiro_independente">Barqueiro(a) independente</option>
+            <option value="barraqueiro_independente">Barraqueiro(a) independente</option>
+            <option value="beneficiador_castanha_independente">Beneficiador(a) de castanha independente</option>
+            <option value="bikeboy_independente">Bikeboy (ciclista mensageiro) independente</option>
+            <option value="bike_propagandista_independente">Bike propagandista independente</option>
+            <option value="bolacheiro_independente">Bolacheiro(a)/biscoiteiro(a) independente</option>
+            <option value="bombeiro_hidraulico_independente">Bombeiro(a) hidráulico independente</option>
+            <option value="boneleiro_independente">Boneleiro(a) (fabricante de bonés) independente</option>
+            <option value="bordadeiro_independente">Bordadeiro(a) independente</option>
+            <option value="borracheiro_independente">Borracheiro(a) independente</option>
+            <option value="britador_independente">Britador independente</option>
+            <option value="cabeleireiro_independente">Cabeleireiro(a) independente</option>
+            <option value="calafetador_independente">Calafetador(a) independente</option>
+            <option value="calheiro_independente">Calheiro independente</option>
+            <option value="caminhoneiro_cargas_nao_perigosas_independente">Caminhoneiro(a) de cargas não perigosas, Intermunicipal e Interestadual, independente</option>
+            <option value="cantor_musico_independente">Cantor(a)/músico(a) independente</option>
+            <option value="capoteiro_independente">Capoteiro(a) independente</option>
+            <option value="carpinteiro_independente">Carpinteiro(a) independente</option>
+            <option value="carpinteiro_instalador_independente">Carpinteiro(a) instalador(a) independente</option>
+            <option value="carregador_malas_independente">Carregador de malas independente</option>
+            <option value="carregador_transportes_terrestres_independente">Carregador (veículos de transportes terrestres) independente</option>
+            <option value="carroceiro_coleta_entulhos_residuos_independente">Carroceiro – coleta de entulhos e resíduos, independente</option>
+            <option value="carroceiro_transporte_carga_independente">Carroceiro – transporte de carga independente</option>
+            <option value="carroceiro_transporte_mudanca_independente">Carroceiro – transporte de mudança independente</option>
+            <option value="cartazista_independente">Cartazista, pintor de faixas publicitárias e de letras, independente</option>
+            <option value="cerqueiro_independente">Cerqueiro(a) independente</option>
+            <option value="chapeleiro_independente">Chapeleiro(a) independente</option>
+            <option value="chaveiro_independente">Chaveiro(a) independente</option>
+            <option value="chocolateiro_independente">Chocolateiro(a) independente</option>
+            <option value="churrasqueiro_ambulante_independente">Churrasqueiro(a) ambulante independente</option>
+            <option value="churrasqueiro_domicilio_independente">Churrasqueiro(a) em domicílio independente</option>
+            <option value="clicherista_independente">Clicherista independente</option>
+            <option value="cobrador_dividas_independente">Cobrador(a) de dívidas independente</option>
+            <option value="colchoeiro_independente">Colchoeiro(a) independente</option>
+            <option value="coletor_residuos_nao_perigosos_independente">Coletor de resíduos não-perigosos independente</option>
+            <option value="colocador_pisos_independente">Colocador de pisos independente</option>
+            <option value="confeiteiro_independente">Confeiteiro(a) independente</option>
+            <option value="confeiteiro_domicilio_independente">Confeiteiro(a) em domicílio independente</option>
+            <option value="construtor_independente">Construtor(a) independente</option>
+            <option value="contramestre_independente">Contramestre(a) independente</option>
+            <option value="corretor_imoveis_independente">Corretor(a) de imóveis independente</option>
+            <option value="costureiro_independente">Costureiro(a) independente</option>
+            <option value="costureiro_ambulante_independente">Costureiro(a) ambulante independente</option>
+            <option value="coveiro_independente">Coveiro(a) independente</option>
+            <option value="curandeiro_independente">Curandeiro(a) independente</option>
+            <option value="decorador_independente">Decorador(a) independente</option>
+            <option value="doador_bone_menstrual_independente">Doador(a) de bonecos menstruais independente</option>
+            <option value="doula_independente">Doula independente</option>
+            <option value="eletricista_independente">Eletricista independente</option>
+            <option value="encadernador_independente">Encadernador(a) independente</option>
+            <option value="encerador_pisos_independente">Encerador(a) de pisos independente</option>
+            <option value="encorpador_materiais_independente">Encorpador(a) de materiais independente</option>
+            <option value="enfeiteiro_independente">Enfeiteiro(a) independente</option>
+            <option value="enxovalista_independente">Enxovalista independente</option>
+            <option value="exclusivista_carnes_independente">Exclusivista de carnes independente</option>
+            <option value="ferreiro_independente">Ferreiro(a) independente</option>
+            <option value="ferroviario_independente">Ferroviário(a) independente</option>
+            <option value="ferramenteiro_independente">Ferramenteiro(a) independente</option>
+            <option value="festeiro_independente">Festeiro(a) independente</option>
+            <option value="fotografo_independente">Fotógrafo(a) independente</option>
+            <option value="freteiro_independente">Freteiro(a) independente</option>
+            <option value="funileiro_independente">Funileiro(a) independente</option>
+            <option value="garçom_independente">Garçom/garçonete independente</option>
+            <option value="gessista_independente">Gessista independente</option>
+            <option value="grafiteiro_independente">Grafiteiro(a) independente</option>
+            <option value="gremista_independente">Gremista independente</option>
+            <option value="guitarrista_independente">Guitarrista independente</option>
+            <option value="instalador_telefones_independente">Instalador(a) de telefones independente</option>
+            <option value="instrumentista_independente">Instrumentista independente</option>
+            <option value="joalheiro_independente">Joalheiro(a) independente</option>
+            <option value="lavatador_roupas_independente">Lavatador(a) de roupas independente</option>
+            <option value="luthier_independente">Luthier independente</option>
+            <option value="marceneiro_independente">Marceneiro(a) independente</option>
+            <option value="meia_custodiante_independente">Meia custodiante independente</option>
+            <option value="moldeiro_independente">Moldeiro(a) independente</option>
+            <option value="mestre_cervejeiro_independente">Mestre cervejeiro(a) independente</option>
+            <option value="mopeiro_independente">Mopeiro(a) independente</option>
+            <option value="motoneta_independente">Motoneta independente</option>
+            <option value="musico_independente">Músico(a) independente</option>
+            <option value="nail_designer_independente">Nail designer independente</option>
+            <option value="operador_telemarketing_independente">Operador(a) de telemarketing independente</option>
+            <option value="paqueiro_independente">Paqueiro(a) independente</option>
+            <option value="padeiro_independente">Padeiro(a) independente</option>
+            <option value="padaria_domicilio_independente">Padaria em domicílio independente</option>
+            <option value="painter_independente">Painter independente</option>
+            <option value="perfumista_independente">Perfumista independente</option>
+            <option value="pintor_independente">Pintor(a) independente</option>
+            <option value="podologo_independente">Podólogo(a) independente</option>
+            <option value="professor_independente">Professor(a) independente</option>
+            <option value="químico_independente">Químico(a) independente</option>
+            <option value="raboteiro_independente">Raboteiro(a) independente</option>
+            <option value="reparador_relojoaria_independente">Reparador(a) de relojoaria independente</option>
+            <option value="restaurador_mobiliario_independente">Restaurador(a) de mobiliário independente</option>
+            <option value="serralheiro_independente">Serralheiro(a) independente</option>
+            <option value="sushiman_independente">Sushiman independente</option>
+            <option value="tapeteiro_independente">Tapeteiro(a) independente</option>
+            <option value="tapeceiro_independente">Tapeceiro(a) independente</option>
+            <option value="técnico_ouvidor_independente">Técnico(a) ouvidor(a) independente</option>
+            <option value="técnico_reparador_independente">Técnico(a) reparador(a) independente</option>
+            <option value="torneiro_independente">Torneiro(a) independente</option>
+            <option value="tradutor_independente">Tradutor(a) independente</option>
+            <option value="tratorista_independente">Tratorista independente</option>
+            <option value="velocista_independente">Velocista independente</option>
+            <option value="vidraceiro_independente">Vidraceiro(a) independente</option>
+            <option value="vitrinista_independente">Vitrinista independente</option>
+            <option value="zootecnista_independente">Zootecnista independente</option>
+        </select>
+
+        <div class="button-container">
+            <button type="submit">Cadastrar</button>
+            <button id="btn-reset" type="reset">Limpar</button>
+           </div>
+           
+    </form>
+</div>
+</body>
+</html>
