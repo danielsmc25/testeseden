@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     color: black;
     background-color: orange;
+    padding: 35px;
 }
 label {
     display: block;
