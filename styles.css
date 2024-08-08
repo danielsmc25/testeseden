@@ -50,3 +50,9 @@ button:hover {
 .button-container #btn-reset{
 background-color: gray;
 }
+
+
+@media (max-width: 600px) {
+    body{background-color: #45a049;}
+    
+}
