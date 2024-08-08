@@ -55,6 +55,7 @@ background-color: gray;
 @media (max-width: 600px) {
     .container{width: 75% ;
     margin-top: 15px;
+    margin-bottom: 15px;
     }
 
     
