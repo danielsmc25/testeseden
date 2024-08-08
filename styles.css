@@ -53,6 +53,9 @@ background-color: gray;
 
 
 @media (max-width: 600px) {
-    body{background-color: #45a049;}
-    .container{width: 75%;}
+    .container{width: 75% ;
+    margin: 5px;
+    }
+
+    
 }
