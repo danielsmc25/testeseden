@@ -10,9 +10,12 @@
   <div class="container">
     <h1>Cadastro Online</h1>
     
-    <form>
+    <form
+    action="https://sheetdb.io/api/v1/qliuh820pkbx6"
+    method="post"
+    name="Atendimentos">
       <label for="atendente">Atendente</label>
-      <select id="atendente" name="atendente">
+      <select id="atendente" name="data[atendentes]">
         <option>Gabriel Ximenes</option>
         <option>Arthur de Almeida</option>
         <option>Daniel Maia</option>
@@ -23,8 +26,8 @@
       </select>
       
       
-      <label for="tipoAtendimento">Tipo de Atendimento</label>
-      <select id="tipoAtendimento" name="tipoAtendimento">
+       <label for="tipoAtendimento">Tipo de Atendimento</label>
+      <select id="tipoAtendimento" name="data[tipoAtendimento]">
         <option>Presencial</option>
         <option>RO-Presencial</option>
         <option>WhatsApp</option>
@@ -33,32 +36,35 @@
       </select>
       
       <label for="nomeCompleto">Nome Completo</label>
-      <input type="text" id="nomeCompleto" name="nomeCompleto" required>
-      
+      <input type="text" id="nomeCompleto" name="data[nomeCompleto]" required>
+       
       <label for="cpf">CPF</label>
-        <input type="number" id="cpf" name="cpf" required>
+        <input type="number" id="cpf" name="data[cpf]" required>
 
         
         <label for="cnpj">CNPJ</label>
-        <input type="number" id="cnpj" name="cnpj">
+        <input type="number" id="cnpj" name="data[cnpj]">
 
         
         <label for="telefone">Telefone:</label>
-        <input type="number" id="telefone" name="telefone" required>
+        <input type="number" id="telefone" name="data[telefone]" required>
+
+        <label for="email">Email</label> 
+         <input type="email" id="email" name="data[email]" required> 
 
         
-        <label for="bairro">Bairro:</label>
-        <input type="text" id="bairro" name="bairro" required>
+         <label for="bairro">Bairro e Cidade:</label>
+        <input type="text" id="bairro" name="data[bairroEcidade]" required>
 
         
 
         
         <label for="dataNascimento">Data de Nascimento</label>
-        <input type="date" id="dataNascimento" name="dataNascimento" required>
+        <input type="date" id="dataNascimento" name="data[dataNascimento]" required>
 
         
         <label for="escolaridade">Escolaridade</label>
-        <select id="escolaridade" name="escolaridade">
+        <select id="escolaridade" name="data[escolaridade]">
             <option>Ensino médio completo</option>
             <option>Ensino Médio Incompleto</option>
             <option>Ensino Fundamental completo</option>
@@ -70,7 +76,7 @@
 
         
         <label for="sexo">Sexo</label>
-        <select id="sexo" name="sexo">
+        <select id="sexo" name="data[sexo]">
             <option>Masculino</option>
             <option>Feminino</option>
             <option>Não Binário</option>
@@ -78,12 +84,11 @@
         </select>
 
         
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+        
 
         
         <label for="tipoServico">Tipo de Serviço</label>
-        <select id="tipoServico" name="tipoServico">
+        <select id="tipoServico" name="data[tipoServico]">
           <option>Lição ou Atualização de Alvará</option>
           <option>Emissão ou Atualização de DAS</option>
           <option>Cadastro ou Emissão de Nota Fiscal</option>
@@ -102,7 +107,7 @@
 
         
         <label for="comoConheceu">Como conheceu a casa</label>
-        <select id="comoConheceu" name="comoConheceu">
+        <select id="comoConheceu" name="data[comoConheceu]">
             <option>CDL</option>
             <option>Codim</option>
             <option>Indicação</option>
@@ -114,7 +119,7 @@
              
         
         <label for="profissoes">Escolha uma profissão:</label>
-        <select id="profissoes" name="profissoes">
+        <select id="profissoes" name="data[profissoes]">
             <option value="adestrador_cães_guarda_independente">Adestrador(a) de cães de guarda independente</option>
             <option value="agente_correio_francoado_independente">Agente de correio franqueado e permissionário independente</option>
             <option value="acougueiro_independente">Açougueiro(a) independente</option>
@@ -259,7 +264,7 @@
             <option value="vidraceiro_independente">Vidraceiro(a) independente</option>
             <option value="vitrinista_independente">Vitrinista independente</option>
             <option value="zootecnista_independente">Zootecnista independente</option>
-        </select>
+        </select> 
 
         <div class="button-container">
             <button type="submit">Cadastrar</button>
@@ -268,5 +273,6 @@
            
     </form>
 </div>
+       <!-- <script src="script.js"></script>  -->
 </body>
 </html>
